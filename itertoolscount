@@ -1,0 +1,8 @@
+import itertools
+
+data_list = [1,2,3,4,5]
+count = itertools.count(start=10,step=2)
+
+zipped_list = list(zip(count,data_list))
+for x in zipped_list:
+    print(x)
